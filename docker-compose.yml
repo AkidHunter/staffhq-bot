@@ -1,0 +1,6 @@
+services:
+  staffhq-bot:
+    build: .
+    env_file: .env
+    restart: unless-stopped
+    mem_limit: 256m
